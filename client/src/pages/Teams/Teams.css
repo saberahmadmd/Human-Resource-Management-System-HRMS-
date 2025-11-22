@@ -1,0 +1,38 @@
+.teams-page {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.teams-empty {
+  padding: 12px 4px 16px;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.team-name-cell {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.teams-row-btn {
+  border-radius: 999px;
+  border: 1px solid rgba(55, 65, 81, 0.9);
+  background: transparent;
+  color: var(--muted);
+  font-size: 0.78rem;
+  padding: 4px 9px;
+  margin-left: 4px;
+  transition: var(--transition);
+}
+
+.teams-row-btn:hover {
+  background: rgba(15, 23, 42, 0.95);
+  color: var(--text);
+}
+
+.teams-row-btn.danger {
+  border-color: rgba(239, 68, 68, 0.7);
+  color: #fecaca;
+}
