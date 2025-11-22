@@ -21,7 +21,7 @@ const logRoutes = require('./routes/logs');
 const app = express();
 
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: true,
   credentials: true,
 }));
 
