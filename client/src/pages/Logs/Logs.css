@@ -1,0 +1,18 @@
+.logs-page {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.logs-empty {
+  padding: 12px 4px 16px;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.logs-table .logs-meta {
+  font-size: 0.75rem;
+  background: rgba(15, 23, 42, 0.9);
+  border-radius: 8px;
+  padding: 4px 6px;
+}
